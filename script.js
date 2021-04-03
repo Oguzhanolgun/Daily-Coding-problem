@@ -1,4 +1,4 @@
-// Good morning! Here's your coding interview problem for today.
+// 1. Good morning! Here's your coding interview problem for today.
 
 // This problem was recently asked by Google.
 
@@ -23,4 +23,14 @@ const twoSum = (array, sum) => {
 };
 console.log(twoSum([10, 20, 10, 40, 50, 60, 70, 30], 50)); //true
 console.log(twoSum([10, 15, 3, 7], 17)); //true
-console.log(twoSum([10, 15, 3, 7], 21)); //false
+console.log(twoSum([10, 15, 3, 7], 21)); //true
+
+// 2. Good morning! Here's your coding interview problem for today.
+
+// This problem was asked by Uber.
+
+// Given an array of integers, return a new array such that each element at index i of the
+//  new array is the product of all the numbers in the original array except the one at i.
+
+// For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120, 60, 40, 30, 24].
+// If our input was [3, 2, 1], the expected output would be [2, 3, 6].
