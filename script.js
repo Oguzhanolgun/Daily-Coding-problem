@@ -6,7 +6,8 @@
 
 // For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 
-const twoSum = (array, sum) => {
+/*
+const addUp = (array, sum) => {
   const hashMap = {},
     results = [];
 
@@ -21,9 +22,11 @@ const twoSum = (array, sum) => {
   const isEqualSum = total.some((el) => el === sum);
   return isEqualSum;
 };
-console.log(twoSum([10, 20, 10, 40, 50, 60, 70, 30], 50)); //true
-console.log(twoSum([10, 15, 3, 7], 17)); //true
-console.log(twoSum([10, 15, 3, 7], 21)); //true
+console.log(addUp([10, 20, 10, 40, 50, 60, 70, 30], 50)); //true
+console.log(addUp([10, 15, 3, 7], 17)); //true
+console.log(addUp([10, 15, 3, 7], 21)); //true
+
+*/
 
 // 2. Good morning! Here's your coding interview problem for today.
 
@@ -34,3 +37,14 @@ console.log(twoSum([10, 15, 3, 7], 21)); //true
 
 // For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120, 60, 40, 30, 24].
 // If our input was [3, 2, 1], the expected output would be [2, 3, 6].
+
+// Method 1
+/*
+const multiplicationExceptItself = (arr) => {
+  const arrProduct = arr.reduce((acc, cur) => acc * cur);
+  return arr.map((el) => arrProduct / el);
+};
+console.log(multiplicationExceptItself([1, 2, 3, 4, 5]));
+console.log(multiplicationExceptItself([3, 2, 1]));
+
+*/
